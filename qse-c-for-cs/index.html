@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="/wp-content/themes/chocolat/js/html5.js"></script>
+<![endif]-->
+<title>QSE: C for C&#039;s | Rivels and Grits</title>
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v2.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="/qse-c-for-cs/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="QSE: C for C&#039;s | Rivels and Grits" />
+<meta property="og:description" content="There is no excerpt because this is a protected post." />
+<meta property="og:url" content="/qse-c-for-cs/" />
+<meta property="og:site_name" content="Rivels and Grits" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Rivels and Grits &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Rivels and Grits &raquo; Comments Feed" href="/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Rivels and Grits &raquo; Protected: QSE: C for C&#8217;s Comments Feed" href="/qse-c-for-cs/feed/" />
+<link rel='stylesheet' id='chocolat_style-css'  href='/wp-content/themes/chocolat/style.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='chocolat_common-css'  href='/wp-content/themes/chocolat/css/common.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='chocolat_quicksand-css'  href='//fonts.googleapis.com/css?family=Quicksand&#038;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='chocolat_font-css'  href='/wp-content/themes/chocolat/css/font.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='chocolat_boxer-css'  href='/wp-content/themes/chocolat/plugin/boxer/jquery.fs.boxer.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='chocolat_pc-css'  href='/wp-content/themes/chocolat/css/pc.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_image_widget-css'  href='/wp-content/plugins/jetpack/modules/widgets/image-widget/style.css?ver=20140808' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-top-posts-widget-css'  href='/wp-content/plugins/jetpack/modules/widgets/top-posts/style.css?ver=20141013' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='/wp-content/plugins/jetpack/css/jetpack.css?ver=3.4.1' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.1" />
+<link rel='shortlink' href='http://wp.me/P5dWe1-aR' />
+<script type="text/javascript" async="" src="/wp-content/plugins/yummly-rich-recipes//js/yrecipe_print.js"></script>
+<link charset="utf-8" href="/wp-content/plugins/yummly-rich-recipes/styles/generic.css" rel="stylesheet" type="text/css" />
+<link charset="utf-8" href="/wp-content/plugins/yummly-rich-recipes/styles/yrecipe-std.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" async="" src="/wp-content/plugins/ziplist-recipe-plugin/zlrecipe_print.js"></script>
+<link charset="utf-8" href="/wp-content/plugins/ziplist-recipe-plugin/zlrecipe-std.css" rel="stylesheet" type="text/css" />
+
+<!-- BEGIN GADWP v4.5.1 Classic Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-56989977-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- END GADWP Classic Tracking -->
+
+
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<link rel='dns-prefetch' href='//widgets.wp.com'>
+<link rel='dns-prefetch' href='//s0.wp.com'>
+<link rel='dns-prefetch' href='//0.gravatar.com'>
+<link rel='dns-prefetch' href='//1.gravatar.com'>
+<link rel='dns-prefetch' href='//2.gravatar.com'>
+<link rel='dns-prefetch' href='//v0.wordpress.com'>
+<link rel='dns-prefetch' href='//jetpack.wordpress.com'>
+<link rel='dns-prefetch' href='//s1.wp.com'>
+<link rel='dns-prefetch' href='//s2.wp.com'>
+<link rel='dns-prefetch' href='//public-api.wordpress.com'>
+<style type='text/css'>img#wpstats{display:none}</style><style type="text/css">
+/* Enter Your Custom CSS Here */
+</style>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('/wp-content/themes/chocolat/img/base/bg_body.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+</head>
+
+<body id="top" class="page page-id-673 page-template-default custom-background qse-c-for-cs active-sidebar right-sidebar">
+<!-- wrapper -->
+<div id="wrapper" class="container">
+<!-- header -->
+<header id="header">
+<!-- header-inner -->
+<div id="header-inner">
+	<div id="header-top" class="clearfix">
+		<div class="header-title">
+			<a class="home-link" href="/" title="Rivels and Grits" rel="home">
+				<h1 id="site-title">Rivels and Grits</h1>
+				<h2 id="site-description">Vegan Pennsylvania Dutch and Southern Cooking</h2>
+			</a>
+		</div>
+		<div class="header-links">
+				<div class="contactlink-top links-aicon clearfix">
+		<ul class="social-links clearfix">
+<li class="rss tooltip" title="RSS"><a href="/feed/" target="_blank"><span class="icon-rss"></span>RSS</a></li>
+<li class="feedly tooltip" title="Feedly"><a href="http://cloud.feedly.com/#subscription%2Ffeed%2F/feed/" target="_blank"><span><img src="/wp-content/themes/chocolat/img/common/aicon_feedly.png" alt="follow us in feedly"></span><span class="icon-text"></span>Feedly</a></li>
+<li id="menu-item-472" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-472"><a href="https://www.facebook.com/pages/Rivels-and-Grits/863846406979726"><span class="icon-social"></span>Connect with me on Facebook!</a></li>
+<li id="menu-item-470" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-470"><a href="http://www.pinterest.com/rivelsandgrits/"><span class="icon-social"></span>Connect with me on Pinterest!</a></li>
+<li id="menu-item-471" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-471"><a href="http://instagram.com/rivelsandgrits"><span class="icon-social"></span>Connect with me on Instagram!</a></li>
+<li id="menu-item-536" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-536"><a href="https://twitter.com/rivelsandgrits"><span class="icon-social"></span>My brand new Twitter feed</a></li>
+<li class="mail tooltip" title="Contact"><a href="/contact/" target="_blank"><span class="icon-mail"></span>Contact</a></li>
+</ul>
+	</div>
+	<div class="search-box">
+	<form role="search" method="get" class="search-form" action="/">
+		<label><span class="screen-reader-text icon-search">Search</span></label>
+		<input type="search" class="search-field watermark-text" value="Search" name="s" />
+		<button type="submit" class="search-submit icon-search" value="Search"></button>
+	</form>
+</div>		</div>
+	</div><!-- /header-top -->
+
+	<div id="header-center" class="clearfix">
+		
+		<!-- globalnav -->
+		<div id="nav-control" class="close">
+			<span class="icon-menu"></span>
+		</div>
+		<div class="globalnav clearfix"><ul id="menu-header-menu" class="globalnav clearfix"><li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-24"><a href="/">Home</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-64"><a href="/category/recipes/">Recipes</a>
+<ul class="sub-menu">
+	<li id="menu-item-140" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140"><a href="/category/recipes/padutch-recipes/">Pennsylvania Dutch</a></li>
+	<li id="menu-item-279" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-279"><a href="/category/recipes/southern/">Southern</a></li>
+	<li id="menu-item-214" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-214"><a href="/category/recipes/main-courses/">Main Courses</a>
+	<ul class="sub-menu">
+		<li id="menu-item-215" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-215"><a href="/category/recipes/main-courses/hearty-soups/">Hearty Soups</a></li>
+	</ul>
+</li>
+	<li id="menu-item-196" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-196"><a href="/category/recipes/sides/">Sides</a></li>
+	<li id="menu-item-195" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-195"><a href="/category/recipes/sweets/">Sweets</a></li>
+</ul>
+</li>
+<li id="menu-item-137" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-137"><a href="/category/vegan-cooking-tips/">Vegan Cooking Tips</a>
+<ul class="sub-menu">
+	<li id="menu-item-138" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-138"><a href="/category/vegan-cooking-tips/ingredients/">Ingredients</a></li>
+</ul>
+</li>
+<li id="menu-item-255" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255"><a href="/category/running-a-home-smoothly/">Running a Home Smoothly</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-78"><a href="/category/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="/meet-michelle/">Meet Michelle</a></li>
+	<li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="/why-i-started-this-blog/">About this Blog</a></li>
+	<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="/benefits-of-a-vegan-diet/">Why I&#8217;m Vegan</a></li>
+	<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="/about-the-pennsylvania-dutch/">About the Pennsylvania Dutch</a></li>
+	<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="/vegan-rivels/">What the Heck is a Rivel?</a></li>
+	<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="/contact/">Contact</a></li>
+</ul>
+</li>
+</ul></div>	</div><!-- /header-center -->
+
+	<div id="header-bottom" class="clearfix">
+					<div class="breadcrumb" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+				<ol>
+				<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url"><span itemprop="title" class="icon-home"><span class="bread-home">Rivels and Grits</span></span></a></li><li class="breadmark">&gt;</li>
+
+												<li>Protected: QSE: C for C&#8217;s
+			</li>
+		</ol>
+	</div>
+		</div><!-- /header-bottom -->
+</div><!-- /header-inner -->
+</header><!-- /header -->
+
+<!-- contents -->
+<div id="contents" class="clearfix">
+<div id= "main-content" class="clearfix">
+	<article id="content-inner" class="clearfix">
+		<section id="qse-c-for-cs" class="post-673 page type-page status-publish post-password-required hentry post-section clearfix">
+	<div class="section-top clearfix">
+		<div class="entry-edit clearfix">
+					</div>
+
+		
+		<div class="entry-title">
+							<h1 class="post-title">Protected: QSE: C for C&#8217;s</h1>
+					</div>
+	</div><!-- /section-top -->
+
+	<div class="section-center clearfix">
+	
+		<div class="post-content">
+					<div class="entry-content">
+				<form action="/wp-login.php?action=postpass" class="post-password-form" method="post">
+<p>This content is password protected. To view it please enter your password below:</p>
+<p><label for="pwbox-673">Password: <input name="post_password" id="pwbox-673" type="password" size="20" /></label> <input type="submit" name="Submit" value="Submit" /></p>
+</form>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-print"><a rel="nofollow" data-shared="" class="share-print sd-button share-icon" href="/qse-c-for-cs/#print" target="_blank" title="Click to print"><span>Print</span></a></li><li class="share-email"><a rel="nofollow" data-shared="" class="share-email sd-button share-icon" href="/qse-c-for-cs/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-673" class="share-facebook sd-button share-icon" href="/qse-c-for-cs/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-673" class="share-twitter sd-button share-icon" href="/qse-c-for-cs/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-673" class="share-google-plus-1 sd-button share-icon" href="/qse-c-for-cs/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-pinterest"><a rel="nofollow" data-shared="sharing-pinterest-673" class="share-pinterest sd-button share-icon" href="/qse-c-for-cs/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span>Pinterest</span></a></li><li class="share-tumblr"><a rel="nofollow" data-shared="" class="share-tumblr sd-button share-icon" href="/qse-c-for-cs/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span>Tumblr</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="/qse-c-for-cs/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>More</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;"><ul><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-673" class="share-linkedin sd-button share-icon" href="/qse-c-for-cs/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-stumbleupon"><a rel="nofollow" data-shared="" class="share-stumbleupon sd-button share-icon" href="/qse-c-for-cs/?share=stumbleupon" target="_blank" title="Click to share on StumbleUpon"><span>StumbleUpon</span></a></li><li class="share-end"></li><li class="share-pocket"><a rel="nofollow" data-shared="" class="share-pocket sd-button share-icon" href="/qse-c-for-cs/?share=pocket" target="_blank" title="Click to share on Pocket"><span>Pocket</span></a></li><li class="share-end"></li></ul></div></div></div></div></div>			</div><!-- /entry-content -->
+		
+		
+		</div><!-- /post-content -->
+	</div><!-- /section-center -->
+
+	<div class="section-bottom clearfix">
+		<div class="section-bottom-inner clearfix">
+					</div>
+	</div><!-- /section-bottom -->
+</section><!-- /section -->
+
+	</article><!-- /content-inner -->
+</div><!-- /main-content -->
+
+	<!-- sidebar -->
+	<div id="sidebar" class="clearfix">
+		<div id="sidebar-inner" class="clearfix">
+		<div class="widget-inner clearfix"><nav id="image-2" class="widget sidebar-widget widget-common widget_image clearfix">
+<div class="widget-top"><h3 class="widget-title icon-crown">Welcome to my Cooking Blog!</h3></div>
+<div class="jetpack-image-container"><div style="width: 223px" class="wp-caption aligncenter"><a target="_blank" href="/meet-michelle/"><img src="/wp-content/uploads/2015/02/meSmile30-border.png" alt="Michelle&#039;s Photo" title="Michelle, Author of Rivels and Grits" width="213" height="90" /></a><p class="wp-caption-text"></a> Meet Michelle, the Pennsylvania Dutch and Southern Vegan Cook</p></div></div>
+</nav>
+<nav id="top-posts-2" class="widget sidebar-widget widget-common widget_top-posts clearfix">
+<div class="widget-top"><h3 class="widget-title icon-crown">Top Posts &amp; Pages</h3></div>
+<ul class='widgets-list-layout no-grav'>
+					<li>
+												<a href="/vegan-slow-cooker-red-beans-rice/" title="Vegan Slow Cooker Red Beans and Rice" class="bump-view" data-bump-view="tp">
+							<img src="http://i0.wp.com/rivelsandgrits.com/wp-content/uploads/2014/12/vegan-slow-cooker-red-beans-and-rice-224x300.jpg?resize=40%2C40" class='widgets-list-layout-blavatar' alt="Vegan Slow Cooker Red Beans and Rice" />
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="/vegan-slow-cooker-red-beans-rice/" class="bump-view" data-bump-view="tp">
+								Vegan Slow Cooker Red Beans and Rice							</a>
+						</div>
+											</li>
+									<li>
+												<a href="/non-dairy-substitute-for-milk-powder-in-bread/" title="A Non Dairy Substitute for Milk Powder in Bread" class="bump-view" data-bump-view="tp">
+							<img src="http://i2.wp.com/rivelsandgrits.com/wp-content/uploads/2014/12/6121531334_9446c52d6e_m.jpg?resize=40%2C40" class='widgets-list-layout-blavatar' alt="A Non Dairy Substitute for Milk Powder in Bread" />
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="/non-dairy-substitute-for-milk-powder-in-bread/" class="bump-view" data-bump-view="tp">
+								A Non Dairy Substitute for Milk Powder in Bread							</a>
+						</div>
+											</li>
+									<li>
+												<a href="/best-vegan-pumpkin-pie/" title="Best Vegan Pumpkin Pie" class="bump-view" data-bump-view="tp">
+							<img src="http://i0.wp.com/rivelsandgrits.com/wp-content/uploads/2014/12/best_vegan_pumpkin_pie-288x300.jpg?resize=40%2C40" class='widgets-list-layout-blavatar' alt="Best Vegan Pumpkin Pie" />
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="/best-vegan-pumpkin-pie/" class="bump-view" data-bump-view="tp">
+								Best Vegan Pumpkin Pie							</a>
+						</div>
+											</li>
+									<li>
+												<a href="/vegan-shoofly-pie/" title="Vegan Shoofly Pie (Molasses Pie)" class="bump-view" data-bump-view="tp">
+							<img src="http://i0.wp.com/rivelsandgrits.com/wp-content/uploads/2014/10/10700656_10152350934390544_8459219570132152363_o-300x269.jpg?resize=40%2C40" class='widgets-list-layout-blavatar' alt="Vegan Shoofly Pie (Molasses Pie)" />
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="/vegan-shoofly-pie/" class="bump-view" data-bump-view="tp">
+								Vegan Shoofly Pie (Molasses Pie)							</a>
+						</div>
+											</li>
+				</ul>
+</nav>
+<nav id="text-6" class="widget sidebar-widget widget-common widget_text clearfix">
+			<div class="textwidget"><!-- The Foodie Blogroll - Premium 300x250 - Above The Fold -->
+<script type="text/javascript">
+ var __fbr_pid  = "537105070";
+ var __fbr_bid  = "28232";
+ var __fbr_sid  = "537183822";
+ var __fbr_size = "300x250";
+ var __fbr_auid = "537360424";
+ var __fbr_zone = "";
+</script>
+<script type="text/javascript" src="http://ads.foodieblogroll.com"></script></div>
+		</nav>
+<nav id="blog_subscription-3" class="widget sidebar-widget widget-common jetpack_subscription_widget clearfix">
+<div class="widget-top"><h3 class="widget-title icon-crown">Subscribe to Email Updates</h3></div>
+
+			<form action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-3">
+				<div id="subscribe-text"></div>					<p id="subscribe-email">
+						<label id="jetpack-subscribe-label" for="subscribe-field">
+							Email Address						</label>
+						<input type="email" name="email" value="" id="subscribe-field" placeholder="Email Address" />
+					</p>
+
+					<p id="subscribe-submit">
+						<input type="hidden" name="action" value="subscribe" />
+						<input type="hidden" name="source" value="/qse-c-for-cs/" />
+						<input type="hidden" name="sub-type" value="widget" />
+						<input type="hidden" name="redirect_fragment" value="blog_subscription-3" />
+												<input type="submit" value="Subscribe" name="jetpack_subscriptions_widget" />
+					</p>
+							</form>
+
+			<script>
+				( function( d ) {
+					if ( ( 'placeholder' in d.createElement( 'input' ) ) ) {
+						var label = d.getElementById( 'jetpack-subscribe-label' );
+	 					label.style.clip 	 = 'rect(1px, 1px, 1px, 1px)';
+	 					label.style.position = 'absolute';
+	 					label.style.height   = '1px';
+	 					label.style.width    = '1px';
+	 					label.style.overflow = 'hidden';
+					}
+				} ) ( document );
+			</script>
+		 
+		
+</nav>
+<nav id="text-5" class="widget sidebar-widget widget-common widget_text clearfix">
+			<div class="textwidget"><script type="text/javascript" src="http://widget.foodieblogroll.com?BlogID=28232&StyleID=4"></script></div>
+		</nav>
+</div>
+<div class="widget-ad-bottom"><nav id="image-4" class="widget ad-banner widget-adsense widget_image clearfix">
+<h3 class="widget-title">Host Gator</h3>
+<div class="jetpack-image-container"><div style="width: 130px" class="wp-caption alignnone"><a href="http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=blondveg-"><img src="http://tracking.hostgator.com/img/Shared/120x90.gif" alt="Host Gator" width="120" height="90" /></a><p class="wp-caption-text">My webhosting service</p></div></div>
+</nav>
+</div>
+		</div>
+	</div><!-- /sidebar -->
+
+</div><!-- /contents -->
+
+
+
+
+<!-- footer -->
+<footer id="footer" class="no-widget-footer">
+	<div id="footer-inner">
+		<div id="footer-top">
+				<div class="contactlink-bottom links-aicon clearfix">
+		<ul class="social-links clearfix">
+<li class="rss tooltip" title="RSS"><a href="/feed/" target="_blank"><span class="icon-rss"></span>RSS</a></li>
+<li class="feedly tooltip" title="Feedly"><a href="http://cloud.feedly.com/#subscription%2Ffeed%2F/feed/" target="_blank"><span><img src="/wp-content/themes/chocolat/img/common/aicon_feedly.png" alt="follow us in feedly"></span><span class="icon-text"></span>Feedly</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-472"><a href="https://www.facebook.com/pages/Rivels-and-Grits/863846406979726"><span class="icon-social"></span>Connect with me on Facebook!</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-470"><a href="http://www.pinterest.com/rivelsandgrits/"><span class="icon-social"></span>Connect with me on Pinterest!</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-471"><a href="http://instagram.com/rivelsandgrits"><span class="icon-social"></span>Connect with me on Instagram!</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-536"><a href="https://twitter.com/rivelsandgrits"><span class="icon-social"></span>My brand new Twitter feed</a></li>
+<li class="mail tooltip" title="Contact"><a href="/contact/" target="_blank"><span class="icon-mail"></span>Contact</a></li>
+</ul>
+	</div>
+				<h3 class="footer-title"><a href="/">Rivels and Grits</a></h3>
+			<h4 class="footer-description"><a href="/">Vegan Pennsylvania Dutch and Southern Cooking</a></h4>
+		</div>
+
+		<div id="footer-bottom">
+		<p id="copyright">Copyright &copy; 2014-2015 <a href="/">Rivels and Grits</a> All Rights Reserved.</p>
+		</div>
+	</div>
+</footer><!-- /footer -->
+
+<div id="pagetop">
+	<a href="#top" class="pagetop-btn ms-fc icon-c-pagetop"><span class="icon-up">PAGE TOP</span></a>
+</div><!-- /pagetop -->
+
+</div><!-- /#wrapper -->
+	<div style="display:none">
+	</div>
+		<script type="text/javascript">
+			!function(d,s,id){
+				var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+				if(!d.getElementById(id)){
+					js=d.createElement(s);
+					js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);
+				}
+			}(document,"script","twitter-wjs");
+		</script>
+		
+	<script type="text/javascript">
+		WPCOM_sharing_counts = {"http:\/\/rivelsandgrits.com\/qse-c-for-cs\/":673}	</script>
+	<div id="sharing_email" style="display: none;">
+		<form action="/qse-c-for-cs/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+			
+			
+			<img style="float: right; display: none" class="loading" src="/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Send Email" class="sharing_send" />
+			<a href="#cancel" class="sharing_cancel">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+							<script type="text/javascript">
+			jQuery(document).on('ready', function(){
+				jQuery('body').on('click', 'a.share-pinterest', function(e){
+					e.preventDefault();
+
+					// Load Pinterest Bookmarklet code
+					var s = document.createElement("script");
+					s.type = "text/javascript";
+					s.src = window.location.protocol + "//assets.pinterest.com/js/pinmarklet.js?r=" + ( Math.random() * 99999999 );
+					var x = document.getElementsByTagName("script")[0];
+					x.parentNode.insertBefore(s, x);
+
+					// Trigger Stats
+					var s = document.createElement("script");
+					s.type = "text/javascript";
+					s.src = this + ( this.toString().indexOf( '?' ) ? '&' : '?' ) + 'js_only=1';
+					var x = document.getElementsByTagName("script")[0];
+					x.parentNode.insertBefore(s, x);
+				});
+			});
+			</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-tumblr' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-linkedin' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-pocket' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcompocket', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+		});
+		</script>
+		<script type='text/javascript' src='/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201513'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2015Maraa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.1.1'></script>
+<script type='text/javascript' src='/wp-includes/js/comment-reply.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/watermark.js'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/navimenu.js'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/slidenav.js'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/rollover.js'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/thumbnail-image.js'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/plugin/boxer/jquery.fs.boxer.min.js'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/boxer.js'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/core.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/position.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/tooltips.js'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/linkposition.js'></script>
+<script type='text/javascript' src='/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/masonry-widget.js'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/footer-fixed.js'></script>
+<script type='text/javascript' src='/wp-content/themes/chocolat/js/pagescroll.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201513.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.4.1',blog:'77203765',post:'673',tz:'-5'} ]);
+	_stq.push([ 'clickTrackerInit', '77203765', '673' ]);
+</script>
+</body>
+</html>
